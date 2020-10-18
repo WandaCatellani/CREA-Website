@@ -1,0 +1,31 @@
+[
+  {
+    "inicia": "01/04/2021",
+
+    "pago1": 3000,
+
+    "imagen": "images/crea1.png",
+
+    "nombre": "Curso 1"
+  },
+
+  {
+    "inicia": "06/04/2021",
+
+    "pago1": 3000,
+
+    "imagen": "images/crea2.png",
+
+    "nombre": "Curso 2"
+  },
+
+  {
+    "inicia": "08/04/2021",
+
+    "pago1": 3000,
+
+    "imagen": "images/crea3.png",
+
+    "nombre": "Curso 3"
+  }
+]
