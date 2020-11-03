@@ -7,11 +7,11 @@
 @import "base/typography";
 
 
-@import "layout/general";
 @import "layout/header";
+@import "layout/general";
 @import "layout/footer";
+@import "layout/modal";
 
 
 @import "view/index";
-@import "view/crea";
 @import "view/contacto";

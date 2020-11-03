@@ -1,4 +1,18 @@
-/* header {
-  @include header();
+header {
+  nav {
+    div {
+      // .logo {
+      //   img {
+      //     width: 5%;
+      //     height: 5%;
+      //   }
+      // }
+
+      ul {
+        .li {
+          font-size: $tam-1;
+        }
+      }
+    }
+  }
 }
- */

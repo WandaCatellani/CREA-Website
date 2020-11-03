@@ -1,5 +1,278 @@
+#formDatos {
+  margin: 4rem auto 6rem;
+  transition: all 1s ease-in-out;
+  width: 60%;
+  padding: 0 3rem;
+  background-color: rgba(49, 138, 190, 0.055);
+}
+
+#mesesModal {
+  padding: 1rem;
+}
+
+#tabla {
+  width: 100%;
+  height: 100%;
+}
+
+#alert {
+  color: #000;
+  font-size: $tam-2;
+}
+
 main {
-  .img-header {
-    height: 838px;
+  margin-bottom: 4rem;
+
+  /* BUTTONS SOCIAL
+-------------------------------------------------- */
+  .iconos-redes {
+    margin-top: 15rem;
+    display: inline-block;
+    vertical-align: middle;
+
+    button {
+      font-size: 2rem;
+      width: 45px;
+    }
+
+    .insta-you {
+      display: flex;
+      flex-flow: column nowrap;
+      width: 45px;
+
+      .instagram {
+        font-size: 2rem;
+      }
+
+      .youtube {
+        font-size: 2rem;
+      }
+
+      .linkedin {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  /* VIDEO CONTENT
+-------------------------------------------------- */
+  .video {
+    // background-image: url(images/amanecer.jpg);
+    // background-size: 100vw 100vh;
+    padding: 0 !important;
+    // max-width: 100%;
+    // height: 100vh;
+    margin-top: 4.5rem;
+    margin-right: 0 !important;
+    background-size: cover;
+
+    video {
+      right: 0;
+      min-width: 100%;
+      min-height: 100%;
+      height: 95vh;
+      margin: 0 !important;
+      // overflow: hidden;
+    }
+  }
+
+  /* TITLE, FORM & PERSONAL INFORMATION
+-------------------------------------------------- */
+  .title-one {
+    padding-top: 3rem;
+    text-align: center;
+
+    h1 {
+      font-size: $tam-6;
+      padding-top: 5rem;
+      padding-bottom: 4rem;
+    }
+
+    p {
+      font-size: $tam-3;
+    }
+
+    .btn-insc {
+      font-size: $tam-3;
+      margin: 1rem 0 1.5rem;
+      border-radius: 1.5rem;
+      padding: 1rem;
+    }
+
+    .card-deck {
+      margin-top: 4rem;
+    }
+
+    form {
+      input,
+      select {
+        font-size: $tam-1;
+      }
+
+      label {
+        font-size: 1.2rem;
+      }
+
+      .sel-btn {
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        align-items: center;
+
+        .btn-meses {
+          font-size: $tam-1;
+        }
+      }
+
+      .btn-datos {
+        font-size: $tam-2;
+        margin: 5rem 0 3rem;
+      }
+    }
+  }
+
+  /* MARKETING CONTENT
+-------------------------------------------------- */
+  .marketing {
+    padding-top: 5rem;
+
+    .col-md-4 {
+      margin-bottom: 1.5rem;
+
+      & h2 {
+        font-weight: 400;
+        font-size: $tam-4;
+        margin: 1rem 0;
+        line-height: 1.2;
+      }
+
+      & p {
+        margin-right: 0.75rem;
+        margin-left: 0.75rem;
+        font-size: $tam-1;
+        padding-bottom: 1rem;
+        line-height: 1.8;
+      }
+    }
+  }
+
+  /* SPACE
+-------------------------------------------------- */
+  .divider {
+    hr {
+      margin: 5rem 0;
+    }
+  }
+
+  /* APOYO A CREA
+-------------------------------------------------- */
+  .apoyo {
+    padding-top: 5rem;
+
+    h2 {
+      font-weight: 400;
+      font-size: $tam-8;
+      padding-top: 6rem;
+      padding-bottom: 2rem;
+      line-height: 1;
+    }
+
+    ul li {
+      list-style-type: disc;
+      color: #17a2b8;
+      font-size: $tam-1;
+      padding-bottom: 1rem;
+      line-height: 1.8;
+
+      a {
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+          color: #17a2b8;
+        }
+      }
+    }
+
+    img {
+      width: 600px;
+      height: 500px;
+    }
+  }
+
+  /* EDITION 2020 CREA
+-------------------------------------------------- */
+  .edicion {
+    padding-top: 5rem;
+
+    img {
+      width: 500px;
+      height: 500px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: $tam-8;
+      padding-top: 8rem;
+      padding-bottom: 2rem;
+      line-height: 1;
+    }
+
+    p {
+      font-size: $tam-1;
+      padding-bottom: 1rem;
+      line-height: 1.8;
+    }
+
+    .btn-ver_mas {
+      font-size: $tam-1;
+      margin-top: 4rem;
+      border-radius: 1.5rem;
+      padding: 1rem;
+    }
+  }
+
+  /* JORNADAS
+-------------------------------------------------- */
+  .jornadas {
+    cursor: pointer;
+    margin: 8rem auto;
+  }
+}
+
+
+
+/* MODAL TOTAL CONTENT
+-------------------------------------------------- */
+.modal {
+  .modal-dialog {
+    .modal-content {
+      .modal-header {
+        border-bottom: 0;
+
+        h3 {
+          font-size: $tam-2;
+          text-align: center;
+        }
+      }
+
+      .modal-body {
+        text-align: center;
+
+        table {
+          thead {
+            .encabezado {
+              font-size: 1.6rem;
+            }
+          }
+
+          tbody {
+            tr {
+              font-size: $tam-1;
+            }
+          }
+        }
+      }
+    }
   }
 }

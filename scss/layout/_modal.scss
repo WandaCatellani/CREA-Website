@@ -1,0 +1,33 @@
+.datos-inscrip {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+
+  .nom-ap {
+    flex-direction: row;
+    align-content: center;
+    padding: 1rem 0;
+    font-size: $tam-2;
+  }
+
+  .mail {
+    flex-direction: row;
+    align-content: center;
+    padding: 2rem 0;
+    font-size: $tam-2;
+  }
+
+  .curso-selec {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    font-size: $tam-2;
+  }
+
+  .btn-mas-cursos {
+    font-size: $tam-1;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 4rem 0;
+  }
+}

@@ -1,0 +1,76 @@
+.contact {
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+
+  /* BUTTONS SOCIAL
+-------------------------------------------------- */
+  .iconos-redes {
+    margin-top: 15rem;
+    display: inline-block;
+    vertical-align: middle;
+
+    button {
+      font-size: 2rem;
+      width: 45px;
+    }
+
+    .insta-you {
+      display: flex;
+      flex-flow: column nowrap;
+      width: 45px;
+
+      .instagram {
+        font-size: 2rem;
+      }
+
+      .youtube {
+        font-size: 2rem;
+      }
+
+      .linkedin {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  /* TITLE CONTACT
+-------------------------------------------------- */
+  .title-contact {
+    h1 {
+      font-size: $tam-6;
+      padding-top: 5rem;
+      padding-bottom: 4rem;
+    }
+  }
+
+  /* BODY CONTACT
+-------------------------------------------------- */
+  .content-contact {
+    margin: 8rem auto 8rem;
+
+    .form-contac {
+      justify-content: center;
+      background-color: hsla(188, 78%, 41%, 0.103);
+      width: 100%;
+
+      input,
+      select {
+        font-size: $tam-1;
+      }
+
+      label {
+        font-size: 1.2rem;
+      }
+
+      .btn-form {
+        font-size: $tam-2;
+        margin: 5rem 0 0;
+      }
+
+      p {
+        font-size: $tam-2;
+      }
+    }
+  }
+
+}

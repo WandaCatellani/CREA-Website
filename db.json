@@ -2,30 +2,32 @@
   {
     "inicia": "01/04/2021",
 
-    "pago1": 3000,
+    "pago1": 3600,
 
-    "imagen": "images/crea1.png",
-
-    "nombre": "Curso 1"
-  },
-
-  {
-    "inicia": "06/04/2021",
-
-    "pago1": 3000,
-
-    "imagen": "images/crea2.png",
-
-    "nombre": "Curso 2"
+    "nombre": "𝖢onsultorio de Costos"
   },
 
   {
     "inicia": "08/04/2021",
 
-    "pago1": 3000,
+    "pago1": 3600,
 
-    "imagen": "images/crea3.png",
+    "nombre": "Fintech Webinars"
+  },
 
-    "nombre": "Curso 3"
+  {
+    "inicia": "15/04/2021",
+
+    "pago1": 3600,
+
+    "nombre": "La Imagen de tu Negocio en Redes"
+  },
+
+  {
+    "inicia": "22/04/2021",
+
+    "pago1": 3600,
+
+    "nombre": "Alternativas para Cobrar y Vender Digitalmente"
   }
 ]

@@ -1,0 +1,113 @@
+footer {
+  @include footer();
+
+  .informacion {
+    @include informacion();
+
+    .top {
+      text-align: right;
+      padding: 3rem;
+      padding-right: 0;
+
+      a {
+        font-size: $tam-6;
+        color: #fff;
+        padding: 1rem;
+
+        i {
+          cursor: pointer;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .logo-footer {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .infor {
+      @include infor();
+
+      ul {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+
+        li {
+          a {
+            font-size: $tam-1;
+            line-height: 2em;
+            color: rgba(255, 255, 255, 0.5);
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    .redes {
+      @include redes();
+
+      ul {
+        list-style: none;
+        margin: 0;
+
+        li {
+          margin: 0 !important;
+          display: inline-block;
+
+          a {
+            font-size: $tam-3;
+            line-height: 2em;
+            color: rgba(255, 255, 255, 0.5);
+
+            &:hover {
+              color: #17a2b8;
+            }
+          }
+        }
+      }
+    }
+
+    .contacto {
+      @include contacto();
+
+      ul {
+        list-style: none;
+        margin: 0;
+
+        .dir {
+          font-size: $tam-3;
+          line-height: 2em;
+          color: rgba(255, 255, 255, 0.5);
+          padding: 1rem;
+
+          &:hover {
+            cursor: pointer;
+            color: #17a2b8;
+          }
+        }
+
+        p {
+          font-size: $tam-1;
+          line-height: 2em;
+          color: rgba(255, 255, 255, 0.5);
+          margin: 10px;
+        }
+      }
+    }
+  }
+
+  .title-copy {
+    h5 {
+      @include title-copy();
+    }
+  }
+}
